@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 75vw;
+  margin: 0 auto; */
+  font-size: 22px;
+  color: #444;
+  line-height: 1.5em;
+  background-color: #fff;
+}
+
+body > header,
+body > footer{
+  text-align: center;
+  color: whitesmoke;
+  padding: 1.5em;
+  background-color: rgb(71, 58, 58);
+}
+
+
+nav ul{
+  display: flex;
+  gap: 2em;
+  padding: 0.75em;
+  background-color: rgb(45, 45, 45);
+  list-style: none
+  
+}
+
+nav a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+main{
+  background-color: whitesmoke;
+}
+
+article{
+  padding: 0.75em;
+}
+
